@@ -1,12 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-
-class App extends Component {
-  render() {
-    return (
-      <h1>Hello !</h1>
-    )
-  }
-}
+import App from './components/App.jsx';
+import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
